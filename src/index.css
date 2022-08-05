@@ -11,3 +11,97 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  /* 1rem = 10px */
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+/**************************/
+/* GLOBAL CLASSES */
+/**************************/
+.container {
+  max-width: 125rem;
+  margin: 0 auto;
+}
+.btn {
+  width: 23.3rem;
+  height: 7rem;
+  border-radius: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2.1rem 3rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 26px;
+}
+.btns {
+  border-radius: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2.1rem 3rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+  /* width: 30rem; */
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 26px;
+}
+.primary-title {
+  font-family: "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 8rem;
+  line-height: 95px;
+  letter-spacing: -0.02em;
+
+  color: #1a1a1a;
+}
+.primary-dec {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 33px;
+
+  color: #1a1a1a;
+}
+.secondary-title {
+  font-family: "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 6.2rem;
+  line-height: 75px;
+  letter-spacing: -0.02em;
+
+  color: #1a1a1a;
+}
+.secondary-dec {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 33px;
+  color: #1a1a1a;
+}
+

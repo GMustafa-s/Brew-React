@@ -1,0 +1,73 @@
+
+.future-wallet {
+  /* border: 1px solid orchid; */
+  margin-top: 17rem;
+  padding: 0 3.2rem;
+}
+.futurer-container {
+  position: relative;
+  padding-top: 9.5rem;
+}
+.container-background {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+}
+
+.container-background::before {
+  content: "";
+  display: block;
+  width: 100%;
+  margin-top: 22rem;
+  height: 67.5%;
+  background-image: url("../../Images/04 Future wallet/mask.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  background-color: #0582ca;
+  border-radius: 4.5rem;
+  z-index: -10;
+}
+.future-right {
+  position: relative;
+}
+.future-right > :nth-child(1) {
+  width: 100%;
+}
+.thumb {
+  position: absolute;
+  top: 13rem;
+  right: 40rem;
+}
+.future-left {
+  padding-top: 36rem;
+  padding-left: 5.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5.8rem;
+}
+.future-tittle {
+  color: white;
+}
+.future-btn {
+  display: flex;
+  gap: 2rem;
+  color: #0582ca;
+}
+.future-wallet-btn {
+  display: flex;
+  gap: 2.4rem;
+  color: #0582ca !important;
+}
+.applee {
+  background-color: #0582ca;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.apple {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: white;
+}

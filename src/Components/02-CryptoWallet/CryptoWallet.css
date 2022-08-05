@@ -1,0 +1,78 @@
+
+.crypto-wallet {
+  margin-top: 10rem;
+  /* border: 1px solid blue; */
+  padding: 0 3.2rem;
+}
+.wallet-container {
+  /* border: 1px solid rgb(25, 25, 49); */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.5rem;
+}
+.wallet-left {
+  display: flex;
+  flex-direction: column;
+  gap: 4.2rem;
+  margin-top: 10rem;
+}
+.wallet-icons {
+  background-color: #0582ca;
+  border-radius: 50%;
+  width: 2.6rem;
+  height: 2.6rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wallet-lists {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.wallet-list {
+  display: flex;
+  gap: 2rem;
+}
+.wallet-icon {
+  color: white;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+}
+.wallet-list-dec {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.4556px;
+  line-height: 28px;
+
+  color: #1a1a1a;
+}
+.wallet-right {
+  background: #e6e6e6;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 54.5278px;
+  position: relative;
+}
+.wallet-right > :nth-child(1) {
+  width: 80%;
+  padding-left: 7rem;
+  padding-top: 15rem;
+  margin: 0 auto;
+  display: flex;
+}
+.wallet-right > :nth-child(2) {
+  position: absolute;
+  top: 42rem;
+  left: -9.4rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 3rem;
+  width: 53%;
+}
+.new-icon{
+  font-size: 4rem;
+  color: white;
+}

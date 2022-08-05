@@ -1,0 +1,77 @@
+
+.wallet-security {
+  margin-top: 20rem;
+  padding: 0 3.2rem;
+}
+.security-left {
+  background: #e6e6e6;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 54.5278px;
+  position: relative;
+}
+.security-left > :nth-child(1) {
+  width: 70%;
+  padding-top: 15rem;
+  margin: 0 auto;
+  display: flex;
+}
+.security-left > :nth-child(2) {
+  position: absolute;
+  padding: 4rem 1.2rem 0 1.2rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: white;
+  top: 40rem;
+  right: -6rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 3rem;
+  width: 50%;
+}
+.security-left > div > img {
+  width: 55%;
+}
+.secutity-right {
+  display: flex;
+  flex-direction: column;
+  gap: 3.6rem;
+}
+.secutity-container {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 12rem;
+}
+.security-left > img {
+  width: 88%;
+}
+.security-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.6rem;
+}
+.security-card {
+  background: #ffffff;
+  border: 0.838889px solid rgba(0, 0, 0, 0.2);
+  border-radius: 33.5556px;
+  padding: 4.6rem 6rem;
+  text-align: center;
+}
+.S-card-heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 33.5556px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #0f0f0f;
+}
+.S-card-dec {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18.4556px;
+  line-height: 28px;
+
+  color: #1a1a1a7f;
+}

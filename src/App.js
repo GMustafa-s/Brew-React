@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Header from './Components/Header/Header';
+import Hero from './Components/Hero Section/Hero';
+import Feature from './Components/01-Feature/Feature';
+import CryptoWallet from './Components/02-CryptoWallet/CryptoWallet';
+import Security from './Components/03-Security/Security';
 
 function App() {
   return (
+    <React.Fragment>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Header/>
+      <Hero/>
+      <Feature/>
+      <CryptoWallet/>
+      <Security/>
     </div>
+    </React.Fragment>
   );
 }
 

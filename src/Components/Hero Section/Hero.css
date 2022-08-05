@@ -1,0 +1,81 @@
+
+.hero-section {
+  margin-top: 12rem;
+  padding-left: 9.5rem;
+  padding-bottom: 22rem;
+}
+.hero-left {
+  margin-top: 16rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.hero-container {
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.hero-span {
+  color: #0582ca;
+}
+.hero-btn {
+  display: flex;
+  gap: 4rem;
+}
+.hero-left-btn {
+  background: #0582ca;
+}
+.hero-left-btn:hover {
+  background-color: white;
+  box-shadow: inset 0 0 0 0.1rem #0582ca;
+  color: #0582ca;
+}
+.hero-right-btn {
+  color: #0582ca;
+  background-color: white;
+  box-shadow: inset 0 0 0 0.1rem #0582ca;
+}
+.hero-right-btn:hover {
+  background: #0582ca;
+  color: white;
+}
+
+/* Hero Right  */
+.hero-right {
+  position: relative;
+}
+.hero-right::before {
+  content: "";
+  display: block;
+  width: 69%;
+  height: 81%;
+  background-image: url("../../Images/Hero/background.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 17%;
+  margin-top: 13%;
+  z-index: -10;
+}
+.phone-hold {
+  position: absolute;
+  width: 100%;
+  margin-top: -12rem;
+}
+.left-blur {
+  position: absolute;
+  top: 11rem;
+  right: 62rem;
+  width: 28%;
+}
+.bottom-dollar {
+  position: absolute;
+  top: 64rem;
+  right: 45rem;
+  width: 26%;
+}
+.right-dollar {
+  position: absolute;
+  top: 13rem;
+  right: 2%;
+  width: 26%;
+}
