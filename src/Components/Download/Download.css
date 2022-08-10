@@ -1,62 +1,62 @@
-.header {
-  padding: 0.8rem 3.2rem 0.2rem 3.2rem;
-  margin-top: 4rem;
-  background-color: white;
-  z-index: 100;
+
+.downloads {
+  background: #eaeaea;
+  padding-top: 16rem;
+  padding: 0 3.2rem;
 }
-.header-container {
+.download-top {
+  padding-top: 16rem;
+}
+.download-btns {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 3rem;
 }
-.header-logo {
-  width: 15%;
+.download {
+  background: #ffffff;
+  border-radius: 19.2944px;
 }
-.menu-ul {
-  list-style: none;
+.download-img {
+  margin-top: 10rem;
+  position: relative;
+}
+.download-img > :nth-child(1) {
+  z-index: -10;
+  width: 50%;
+  margin: 0 auto;
   display: flex;
-  gap: 6.8rem;
+}
+.download-img > :nth-child(2) {
+  position: absolute;
+  top: 6rem;
+  left: 21rem;
+}
+.download-img > :nth-child(3) {
+  position: absolute;
+  top: 0;
+  right: 27rem;
+}
+.download-img > :nth-child(4) {
+  position: absolute;
+  top: 45rem;
+  right: 50rem;
+}
+.applee {
+  background-color: #0582ca;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
-.menu-list a {
-  text-decoration: none;
-  font-family: "Helvetica Neue";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 25px;
-  color: #000000;
+.apple {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: white;
 }
-.header-btn {
-  background: #0582ca;
-}
-.header-btn:hover {
-  background-color: white;
-  box-shadow: inset 0 0 0 0.1rem #0582ca;
-  color: #0582ca;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

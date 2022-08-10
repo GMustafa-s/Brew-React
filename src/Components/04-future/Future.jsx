@@ -1,6 +1,7 @@
 import React from 'react'
 import '../04-future/Future.css'
-import phone from '../04-future/phone.png'
+import '../Responsive/Resposive.css'
+import phone from '../../Images/04 Future wallet/phone.png'
 
 const Future = () => {
   return (
@@ -14,7 +15,7 @@ const Future = () => {
               Try the crypto wallet of the future, today
             </h1>
             <div class="future-wallet-btn reponsive">
-              <button class="btns future-btn reponsivee width">
+              <button class="btns future-btn reponsivee">
                 <div class="applee">
                   <ion-icon name="logo-apple" class="apple"></ion-icon>
                 </div>

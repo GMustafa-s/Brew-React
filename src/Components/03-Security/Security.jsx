@@ -1,5 +1,6 @@
 import React from "react";
 import '../03-Security/Security.css'
+import '../Responsive/Resposive.css'
 import phone from '../../Images/03 secutity wallet/phone.png'
 import small from '../../Images/03 secutity wallet/small.png'
 

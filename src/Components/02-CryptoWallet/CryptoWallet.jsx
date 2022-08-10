@@ -1,5 +1,6 @@
 import React from "react";
 import "../02-CryptoWallet/CryptoWallet.css";
+import '../Responsive/Resposive.css'
 import { BsCheck2 } from 'react-icons/bs' ;
 import phone from '../../Images/02 crypto wallet/phone.png'
 import small from '../../Images/02 crypto wallet/small.png'

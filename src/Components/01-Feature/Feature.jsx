@@ -1,5 +1,7 @@
 import React from "react";
 import "../01-Feature/Feature.css";
+import '../Responsive/Resposive.css'
+import imge from '../../Images/01 Feature Section/imge.png'
 
 const Feature = () => {
   return (
@@ -152,7 +154,7 @@ const Feature = () => {
               </div>
               <div className="card-right">
                 <img
-                  src="./Assets/Images/01 Feature Section/Group 8687.png"
+                  src={imge}
                   alt=""
                 />
               </div>

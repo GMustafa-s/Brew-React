@@ -1,61 +1,151 @@
-.header {
-  padding: 0.8rem 3.2rem 0.2rem 3.2rem;
-  margin-top: 4rem;
-  background-color: white;
-  z-index: 100;
+.about {
+  background: #eaeaea;
+  padding: 0 3.2rem;
 }
-.header-container {
+.about-container {
+  /* border: 1px solid blueviolet; */
+}
+.about-start {
+  margin-top: 12rem;
+  display: grid;
+  grid-template-columns: 1.11fr 1fr;
+  gap: 5rem;
+  padding-top: 12rem;
+}
+.about-left {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 3.2rem;
 }
-.header-logo {
-  width: 15%;
+.width {
+  width: 21rem;
 }
-.menu-ul {
-  list-style: none;
+.about-right {
   display: flex;
-  gap: 6.8rem;
-  justify-content: center;
-  align-items: center;
+  padding-top: 12rem;
+  gap: 4.2rem;
+  padding-bottom: 3rem;
 }
-.menu-list a {
-  text-decoration: none;
-  font-family: "Helvetica Neue";
+.about-review {
+  margin-top: 16rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.6rem;
+  padding-bottom: 14rem;
+}
+.reviews {
+  background: #ffffff;
+  border-radius: 5.4rem;
+  padding: 5.2rem 3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.6rem;
+}
+.reviews > :nth-child(1) {
+  font-family: "HelveticaNeue";
   font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 29.3611px;
+  line-height: 35px;
+  letter-spacing: -0.02em;
+  color: #1a1a1a;
+}
+.reviews > :nth-child(2) {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18.4556px;
+  line-height: 28px;
+  color: #1a1a1a;
+}
+.reviewers {
+  padding-left: 1.2rem;
+  display: flex;
+  gap: 5rem;
+}
+.reviewers-left {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.reviewers-left > img {
+  width: 32%;
+}
+.review-name > :nth-child(1) {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.7778px;
   line-height: 25px;
-  color: #000000;
+
+  color: #1a1a1a;
 }
-.header-btn {
-  background: #0582ca;
+.review-name {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
-.header-btn:hover {
-  background-color: white;
-  box-shadow: inset 0 0 0 0.1rem #0582ca;
-  color: #0582ca;
+.review-name > :nth-child(2) {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.4222px;
+  line-height: 20px;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+.reviewers-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 2.4rem;
 }
 
+/* star Css */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.rate {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+}
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+}
+.rate:not(:checked) > label:before {
+  content: "★ ";
+}
+.rate > input:checked ~ label {
+  color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+/* **************** */
+.checked {
+  color: orange;
+}
+.hide-moob{
+  display: none;
+}
 
 
 
@@ -891,9 +981,12 @@ justify-content: center;
 .hide-moob{
   display: none;
 }
+.show{
+  display: none;
+}
 .hide-mob{
   display: block;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   gap: 2rem;
   justify-content: center;

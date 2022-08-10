@@ -1,5 +1,6 @@
 import React from "react";
 import "../Hero Section/Hero.css";
+import '../Responsive/Resposive.css'
 import women from '../../Images/Hero/women.png'
 import left from '../../Images/Hero/left-blur.png'
 import bottom from '../../Images/Hero/bottom.png'

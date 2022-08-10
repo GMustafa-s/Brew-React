@@ -1,70 +1,120 @@
-.header {
-  padding: 0.8rem 3.2rem 0.2rem 3.2rem;
-  margin-top: 4rem;
-  background-color: white;
-  z-index: 100;
+.latest {
+  margin-top: 18rem;
+  padding: 0 3.2rem;
+  padding-bottom: 26rem;
 }
-.header-container {
+.latest-cards {
+  margin-top: 12rem;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: row;
+  gap: 2.4rem;
+  padding-bottom: 10rem;
 }
-.header-logo {
-  width: 15%;
-}
-.menu-ul {
-  list-style: none;
+.latest-card {
+  padding: 3rem 2.7rem;
+  background: #ffffff;
+  border: 0.838889px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3.3rem;
   display: flex;
-  gap: 6.8rem;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  gap: 3.4rem;
 }
-.menu-list a {
-  text-decoration: none;
-  font-family: "Helvetica Neue";
+.latest-imges {
+  position: relative;
+}
+.latest-11 {
+  height: 106%;
+}
+.last-detail-margin {
+  margin-top: 1.6rem;
+}
+.latest-imges > :nth-child(1) {
+  z-index: -10;
+  width: 100%;
+}
+.latest-2 {
+  z-index: 10;
+  width: 99%;
+  position: absolute;
+  right: 0;
+}
+.latest-3 {
+  z-index: 10;
+  width: 26%;
+  position: absolute;
+  right: 16%;
+  top: 10%;
+}
+.latest-4 {
+  z-index: 10;
+  width: 26%;
+
+  position: absolute;
+  right: 52%;
+  top: 43%;
+}
+.latest-date {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  font-family: "HelveticaNeue";
   font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 20.9722px;
   line-height: 25px;
-  color: #000000;
+  letter-spacing: -0.02em;
+
+  color: #626262;
 }
-.header-btn {
-  background: #0582ca;
+.latest-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
-.header-btn:hover {
-  background-color: white;
-  box-shadow: inset 0 0 0 0.1rem #0582ca;
+.latest-heading {
+  font-family: "HelveticaNeue";
+  font-style: normal;
+ 
+  font-weight: 600;
+  font-size: 29.3611px;
+  line-height: 35px;
+  letter-spacing: -0.02em;
+  color: #1a1a1a;
+}
+.latest-detail > span {
+  text-decoration: none;
+  font-family: "HelveticaNeue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.9722px;
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  cursor: pointer;
   color: #0582ca;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.latest-heading> span {
+  text-decoration: none;
+  font-family: "HelveticaNeue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.9722px;
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  cursor: pointer;
+  color: #0582ca;
+}
+.latest-btn {
+  background: #ffffff;
+  border: 0.838889px solid rgba(0, 0, 0, 0.2);
+  border-radius: 2.4rem;
+  padding: 2.4rem 4.4rem;
+  color: #0582ca;
+}
+.latest-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 
