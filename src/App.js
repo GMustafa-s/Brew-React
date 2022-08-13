@@ -16,7 +16,7 @@ import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <React.Fragment>
-    <div className="App">
+    {/* <div className="App"> */}
 
       <Header/>
       <Hero/>
@@ -30,7 +30,7 @@ function App() {
       <Download/>
       <Last/>
       <Footer/>
-    </div>
+    {/* </div> */}
     </React.Fragment>
   );
 }
