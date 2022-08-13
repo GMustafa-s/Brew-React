@@ -1,7 +1,7 @@
 import React from 'react'
 import '../04-future/Future.css'
 import '../Responsive/Resposive.css'
-import phone from '../../Images/04 Future wallet/phone.png'
+import phone from '../../Images/04 Future wallet/phones.png'
 
 const Future = () => {
   return (
